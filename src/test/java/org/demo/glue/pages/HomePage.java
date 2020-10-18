@@ -31,7 +31,7 @@ public class HomePage {
     }
 
     public void introduceProductOnSearchBar(String product) {
-        libWebActions.waitForCondition(searchBarSelector, EnumConditions.PRESENCE_OF_ELEMENT_LOCATED);
+        libWebActions.waitForCondition(searchBarSelector, EnumConditions.VISIBILITY_OF);
         final WebElement searchField = driver.findElement(searchBarSelector);
         searchField.sendKeys(product);
         searchField.sendKeys(Keys.ENTER);

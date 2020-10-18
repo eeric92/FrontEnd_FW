@@ -49,7 +49,7 @@ public class LibWebActions {
                 webDriverWait.until(ExpectedConditions.invisibilityOf(driver.findElement(objectName)));
                 break;
             default:
-                System.out.println("");
+                System.out.println("Parameter not suported");
         }
     }
 

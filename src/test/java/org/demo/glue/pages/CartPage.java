@@ -26,7 +26,7 @@ public class CartPage {
     }
 
     public String getArticlesNumOnCart() {
-        libWebActions.waitForCondition(numberOfArticlesSelector, EnumConditions.PRESENCE_OF_ELEMENT_LOCATED);
+        libWebActions.waitForCondition(numberOfArticlesSelector, EnumConditions.VISIBILITY_OF);
         return driver.findElement(numberOfArticlesSelector).getText().replaceAll("[^-?0-9]+", "");
     }
 
