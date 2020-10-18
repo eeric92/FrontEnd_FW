@@ -3,7 +3,6 @@ package org.demo.glue;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.demo.driver_manager.DriverManager;
-import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
 
