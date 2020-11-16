@@ -11,14 +11,13 @@ You must have installed GIT A MAVEN in your local
 
 ### Installation 🔧
 ```
-git clone https://github.com/Ignacioarranzoviedo/saucedemo-automatedTest.git
+git clone https://github.com/eeric92/FrontEnd_FW.git
 ```
 
 ## Test execution LOCAL⚙️
 ```
 mvn install verify
 ```
-You can execute the test suite in different browser in local (by default chrome): 'browser.type =' - src/test/java/automation/saucedemo/config/configuration.properties
 
 ## Technologies 🛠️
 
