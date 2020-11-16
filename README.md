@@ -29,9 +29,8 @@ mvn install verify
 
 * **Eric Sanchez** - [eeric92](sanceric92@gmail.com)
 
+## Build instructions
+Ensure you have Java installed, Maven installed and the JAVA_HOME and MAVEN_HOME environment variables properly set
 
 ---
 ⌨️ with ❤️ by [eeric92](sanceric92@gmail.com) 😊
-
-## Build instructions
-Ensure you have Java installed, Maven installed and the JAVA_HOME and MAVEN_HOME environment variables properly set
