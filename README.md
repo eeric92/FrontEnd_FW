@@ -1,8 +1,8 @@
-# Saucedemo-automatedTest
-Runnable automation test for the www.saucedemo.com site
+# Zalando Automated Test
+Runnable automation test for the https://www.zalando.es/ site
 
  ```S
-                Java + Selenium webDriver + Cucumber + Serenity + Junit
+                Java + Selenium WebDriver + Cucumber
 ```
 
 ## Starting 🚀
